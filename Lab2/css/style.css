@@ -1,0 +1,724 @@
+.body
+{
+    margin: 0;
+    padding: 0;
+    height: 2198px;
+    /*width: 1140px;*/
+    position: relative;
+}
+
+/*Блок header ================ start */
+.header
+{
+    /*Выравнивание логотипа и меню в блоке header*/
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;*/
+
+    height: 74px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+}
+
+.header_box
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 940px;
+    height: 40px;
+    line-height: 74px;
+
+
+    /*Рассположене бокса по центру*/
+    margin-left: auto;
+    margin-right: auto;
+    /*Из - за PADDING бокс выходит за пределы экрана
+    padding-left: 250px;
+    padding-right: 250px;*/
+    margin-top: 17px;
+}
+.header_logo
+{
+    text-align: left;
+    /*margin-left: 0px;*/
+    font-family: 'Lora';
+    font-size: 26px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-left: 0px;
+}
+.header-menu 
+{
+    margin-right: 0px;
+}
+.menu-links
+{
+    margin-right: 0px;
+}
+
+.menu-links_link 
+{
+    margin-left: 45px;
+    text-decoration: none; 
+    font-family: 'Oxygen';
+    font-size: 12px; 
+    height: 20px;
+    color: #FFFFFF;
+}
+
+/*Блок header ================ end*/
+
+
+/*Основная надпись на глайно картинке start=============*/
+.second-header_box
+{
+    width: 100%;
+    height: 100%;
+    height: 500px;
+
+    background-image: url('../img/main_backgroung.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*left: 0%;
+    right: 0%;
+    top: 0px;  
+
+    padding-bottom: 100px;*/
+}
+
+.second-header_text
+{
+    height: 159px;
+    padding-top: 177px;
+}
+
+.main-text_tittle
+{
+    font-size: 50px;
+    line-height: 51px;
+    font-family: 'Lora';
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+}
+.main-text_subtittle
+{
+    font-family: 'Oxygen';
+    font-size: 17px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.63);
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.second-header_button
+{
+    text-align: center;
+    padding-top: 31px;
+}
+
+.main-button_link
+{
+    line-height: 44px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Oxygen';
+    font-size: 13px;
+
+    /*Обводка вокруг ссылки (кнопка)*/
+    display: inline-block;
+    border: 2px solid #DD783F;
+    background-color: #DD783F;
+    border-radius: 3px;
+    width: 167px;
+    height: 44px;
+}
+
+/*Основная надпись на глайно картинке end ============*/
+
+/*Ссылки после главной картинки и header start========*/
+.indicative-links
+{
+    height: 65px;
+    left: 0%;
+    right: 0%;
+}
+.indicative-links_box
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /*background-color: #DD783F;*/
+    height: 46px;
+    width: 960px;
+
+    /*padding-left: 240px;
+    padding-right: 240px;*/
+    padding-top: 9px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;       
+}
+/*Отдельные ссылки для indicative-links_list */
+.list-links_link
+{
+    font-family: 'Lora';
+    font-weight: 400px;
+    font-size: 14px;
+    
+    /*Выравнивание ссылок*/
+    text-align: center;
+    line-height: 46px;
+
+    /*Отступы между ссылками*/
+    margin-left: 21px;
+
+    /*Цвет и подчеркивание ссылок*/
+    text-decoration: none;
+    color: #768088;
+
+    /*Блок - ссылка для каждой ссылки*/
+    display: inline-block;
+    border: 2px solid #FFFFFF;
+    width: 139px;
+    height: 46px;
+}
+/*Ссылки после главной картинки и header end============*/
+
+/*Документ для всей страницы CONTENT BLOCK
+========================================*/
+.contnet_block
+{
+    margin-left: 0;
+    margin-right: 0;
+    height: 1255px;
+    background-color: #F7F7F7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0px;
+
+    /*margin-left: 0;
+    margin-right: 0;*/
+}
+
+/*FONT - FAMILY для Featured_Post
+================================*/
+.featured-lora-family
+{
+    font-family: 'Lora';
+    font-size: 27px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.featured-oxygen-family
+{
+    font-family: 'Oxygen';
+    font-size: 14px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.featured-oxygen-family_adventure
+{
+    font-family: 'Oxygen';
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 26px;
+    color: #FFFFFF;   
+    
+    /*Обводка для кнопки ADVENTURE в FROM TOP DOWN*/
+    display: inline-block;
+    border: 2px solid #DD783F;
+    background-color: #DD783F;
+    border-radius: 2px;
+    width: 87px;
+    height: 26px;
+}
+.featured-oxygen-family_smallest
+{
+    font-family: 'Oxygen';
+    font-size: 12px;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.7);
+}
+/*FONT - FAMILY для Featured_Post
+================================*/
+
+/*ОБЩИЕ характеристики для Featured Post*/
+.featured-post
+{
+    width: 940px;
+    height: 414px;
+    margin: auto;
+    /*margin-left: 240px;
+    margin-right: 240px;*/
+}
+/*ОБЩИЕ характеристики для Featured Post*/
+
+/*Рассположение 2-ух картинок из featured post
+============================================*/
+.featured-post_content
+{
+    width: 960px;
+    height: 294px;
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center; 
+}
+/*Рассположение 2-ух картинок из featured post
+============================================*/
+
+/*Кнопка ADVENTURE для FEATURED POST
+==================================*/
+.the-road-ahead_button
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/*================================*/
+
+/*Заглавние, блок в котором оно находится и подчеркивание*/
+.featured-post_block
+{
+    height: 44px;
+    padding-top: 60px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.featured-post_tittle
+{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+.featured-post_line
+{
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+    width: 188px;
+    color: #DEDEDE;   
+}
+
+/*Первый большой блок из featured_post  -  the_road_ahead*/
+.the-road-ahead
+{
+    height: 280px;
+    width: 460px;
+    /*margin-left: 250px;*/
+    background-image: url('../img/the_road_ahead.jpg');
+
+    position: relative;
+}
+/*Второй большой блок из featured_post  -  from_top_down*/
+.from-top-down
+{
+    height: 280px;
+    width: 460px;
+    margin-left: 20px;
+    /*margin-right: 250px;*/
+    background-image: url('../img/from_top_down.jpg');
+
+    position: relative;
+}
+
+/*Кнопка ADVENTURE в FROM TOP DOWN*/
+.from-top-down_button
+{
+    margin-top: 26px;
+    margin-left: 29px;
+    text-align: center;
+}
+/*================================*/
+
+/*ОБЩИЕ критерии для названия, комментариев, автора и даты*/
+.featured-post__content_box
+{
+    height: 181px;
+    width: 460px;
+    /*background-color: #DD783F;*/
+
+    position: absolute;
+    bottom: 0%;
+}
+
+/*ОБЩИЕ критерии для 2-ух блоков THE ROAD AHEAD
+=============================================*/
+.featured-title
+{
+    /*ОТСТУПЫ для блока в THE ROAD AHEAD*/    
+    margin-top: 58px;
+    margin-left: 20px;
+    margin-right: 236px;
+    margin-bottom: 0px;
+}
+.featured-subtitle
+{
+    /*ОТСТУПЫ для блока в THE ROAD AHEAD*/
+    margin-top: 6px;
+    margin-left: 20px;
+    margin-right: 96px;
+    margin-bottom: 0px;    
+}
+.featured-post__comment_block
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    width: 420px;
+    /*background-color: #999999;*/
+
+    margin-top: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;    
+}
+.featured-autor-info
+{
+    height: 35px;
+    width: 77px;
+    line-height: 35px;
+    padding-left: 10px;
+    padding-right: 200px;
+}
+.featured_data
+{
+    height: 35px;
+    width: 108px;
+    padding-left: 200px;
+}
+.featured-image
+{
+    line-height: 35px;
+}
+/*ОБЩИЕ критерии для 2-ух блоков THE ROAD AHEAD
+=============================================*/
+
+/*
+===============MOST RECENT==============
+*/
+
+/*Блок для картинок из Most Recent
+================================*/
+
+/*FONT - FAMILY для Most Recent
+================================*/
+.recent-lora-family
+{
+    font-family: 'Lora';
+    font-size: 16px;
+    line-height: 21px;
+    color: #101315;
+    margin-top: 0;
+}
+.recent-oxygen-family
+{
+    font-family: 'Oxygen';
+    font-size: 13px;
+    line-height: 19px;
+    color: #7A7A7A
+}
+.recent-oxygen-family_smallest
+{
+    font-family: 'Oxygen';
+    font-size: 12px;
+    line-height: 35px;
+    color: #999999;
+}
+/*==============================*/
+
+.most-recent
+{
+    width: 940px;
+    height: 752px;
+    margin: auto;
+}
+
+/*ЗАГОЛОВОК, подчеркивание для MOST RESENT
+========================================*/
+.most-recent_block
+{
+    height: 44px;
+    width: 940px;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+.most-recent_tittle
+{
+    text-align: center;
+    margin: 0;
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+}
+.most-recent_line
+{
+    margin-top: 16px;
+    margin-bottom: 0px;
+    width: 188px;
+    color: #DEDEDE; 
+}
+/*======================================*/
+
+.most-recent__content
+{
+    height: 300px;
+    width: 296px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+.most-recent__content_second
+{
+    padding-top: 25px;
+    height: 300px;
+    width: 296px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.most-recent__card_block
+{
+    height: 291px;
+    width: 296px;
+    margin: auto;
+    /*background-color: #DD783F;*/
+
+    /*display: flex;
+    flex-wrap: wrap;*/
+    position: relative;
+}
+.most-recent__card_lokation
+{
+    height: 141px;
+    width: 296px;
+    /*background-color: aqua;*/
+}
+.most-recent__card_comment
+{
+    width: 296px;
+    height: 93px;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+.title_name
+{
+    margin: 0;
+    padding-top: 14px;
+    padding-left: 13px;
+}
+.comment_name
+{
+    padding-top: 6px;
+    padding-left: 13px;
+    margin: 0;
+}
+.most-recent__card_block_second
+{
+    width: 296px;
+    height: 48px;
+    margin: 0;
+    background-color: #FCFCFC;
+    padding-top: 1px;
+    line-height: 48px;
+    position: absolute;
+    bottom: 0;
+}
+/*ВЫРАВНИВАНИЕ имени автора, data
+===============================*/
+.most-recent__lokation
+{
+    width: 296px;
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    line-height: 48px;
+}
+.most-recent__lokation_image
+{
+    line-height: 48px;
+    padding-top: 12px;
+    padding-left: 13px;
+}
+.most-recent__lokation_name
+{
+    /*position: absolute;*/
+    line-height: 48px;
+    height: 35px;
+    width: 77px;
+    padding-left: 10px;
+
+}
+.most-recent__lokation_data
+{
+    /*position: absolute;*/
+    line-height: 48px;
+    height: 35px;
+    width: 58px;
+    padding-left: 100px;
+}
+/*=============================*/
+
+/*Заглавние, блок в котором оно находится и подчеркивание*/
+
+/*.three_images__second
+{
+    height: 300px;
+    width: 296px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 20px;
+}*/
+
+/*Отступы между 3-мя блоками*/
+.most-recent__content_indent
+{
+    margin-left: 24px;
+}
+/*==========================*/
+
+
+.input-information
+{
+    height: 378px;
+    margin-left: 0;
+    margin-right: 0;
+    background-image: url('../img/footer-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.input-information__box
+{
+
+    height: 227px;
+    width: 940px;
+    margin: auto;
+    padding-top: 62px;
+    /*padding-left: 250px;
+    padding-right: 250px;*/
+
+}
+.input-information__box_text
+{
+    margin: auto;
+    height: 47px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.input-information_font-family-oxygen
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;    
+    color: #EFEFEF;
+
+}
+.input-information__box_title
+{
+    width: 158px;
+    height: 30px;
+    margin: auto;
+    padding-top: 1px;
+    padding-bottom: 18px;
+}
+.input-information__box_line
+{
+    margin-top: 17px;
+    margin-bottom: 0;
+    margin: auto;
+    width: 188px;
+    color: #DEDEDE;
+}
+.input-information__box_email
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 500px;
+    margin: auto;
+}
+
+/*Блок FOOTER ==================*/
+.footer
+{
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;*/
+
+    /*background-image: url('../img/footer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-color: rgba(35, 47, 56, 0.6);
+    opacity: 60%;
+
+    height: 89px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0px;
+}
+.footer_box
+{
+    height: 34px;
+    width: 960px;
+    line-height: 89px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 28px;
+}
+.footer__logo
+{
+    text-align: left;
+    font-family: 'Lora';
+    font-size: 26px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-left: 0px;
+}
+.footer__menu
+{
+    margin-right: 0px;
+}
+.footer_menu__link
+{
+    margin-left: 45px;
+    text-decoration: none; 
+    font-family: 'Oxygen';
+    font-size: 12px; 
+    opacity: 60%;
+    height: 20px;
+    color: #FFFFFF;
+}
+/*Блок FOOTER ==================*/
+

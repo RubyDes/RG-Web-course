@@ -1,0 +1,174 @@
+.body
+{
+    margin: 0;
+    padding: 0;
+    height: 2600px;
+
+}
+.html
+{
+    position: relative;
+    min-height: 100%;
+}
+/*Блок header ================ start */
+.header
+{
+    /*Выравнивание логотипа и меню в блоке header*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 74px;
+    position: absolute;
+    /*Выравнивает логотип по левой стороне, а меню по правой; а также по высоте*/
+    left: 0%;
+    right: 0%;
+    top: 0px;
+}
+
+.header__logo
+{
+    text-align: left;
+    margin-left: 45px;
+    font-family: 'Lora';
+    font-size: 26px;
+    line-height: 26px;
+    color: #2E2E2E;
+    margin-left: 250px;
+}
+
+.header-menu
+{
+    margin-right: 270px;
+}
+.header-menu__link
+{
+    margin-left: 45px;
+    text-decoration: none; 
+    /*font-family: 'Oxygen';
+    font-size: 12px; 
+    height: 20px;*/
+    color: #2E2E2E;
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
+/*Блок header ================ end*/
+.main_box
+{
+    background-color: #FFFFFF;
+    height: 357px;
+    padding-top: 74px;
+}
+.main_second_text
+{
+    text-align: center;
+    height: 159px;
+    padding-top: 163px;
+}
+
+.main_box__tittle
+{
+    font-family: 'Lora';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 51px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    /*padding-top: 82px;*/
+}
+.main_box__comment
+{
+    color: rgba(46, 46, 46, 0.63);
+    font-family: 'Oxygen';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+}
+.main_image
+{
+    height: 534px;
+    background-image: url('../img/the_road_ahead_big.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 38px ;
+}
+.main_text__background
+{
+    background-color: #F7F7F7;
+    height: 1706px;
+    margin-top: 0;
+    position: relative;
+}
+.main_text_box
+{
+    height: 1431px;
+    position: absolute;
+    width: 960px;
+    left: 240px;
+    right: 240px;
+    top: 140px;
+    bottom: 135px;
+}
+.main_text
+{
+    font-family: 'Oxygen';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+/*Блок FOOTER ==================*/
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-image: url('../img/footer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*position: absolute;
+    width: 100%;
+    height: 89px;
+    margin-top: -89px;
+
+    left: 0%;
+    right: 0%;*/
+
+    position: absolute;
+    height: 89px;
+    left: 0%;
+    right: 0%;
+    top: 2600px;
+
+    
+}
+.footer__logo
+{
+    text-align: left;
+    margin-left: 45px;
+    font-family: 'Lora';
+    font-size: 26px;
+    line-height: 89px;
+    color: #FFFFFF;
+    margin-left: 240px;
+}
+.footer__menu
+{
+    margin-right: 240px;
+}
+.footer_menu__link
+{
+    margin-left: 20px;
+    text-decoration: none; 
+    font-family: 'Oxygen';
+    font-size: 12px; 
+    line-height: 88px;
+    height: 20px;
+    color: #FFFFFF;
+}
+/*Блок FOOTER ==================*/
